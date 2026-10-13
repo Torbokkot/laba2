@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №2</title>
+</head>
+<body id="top">
+
+    <!-- Шапка сайту -->
+    <header>
+        <h1>Лабораторна робота №2</h1>
+        <p>Сайт студентської бригади</p>
+
+        <!-- Навігація з внутрішніми якорями -->
+        <nav>
+            <p><strong>Меню:</strong></p>
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#team">Склад бригади</a></li>
+                <li><a href="#schedule">Розклад</a></li>
+                <li><a href="#media">Мультимедіа</a></li>
+                <li><a href="form.html">Форма зворотного зв'язку</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основний контент -->
+    <main>
+        <!-- Секція 1: Про нас -->
+        <section id="about">
+            <h2>Про нас</h2>
+            <article>
+                <p>Ми вивчаємо мову розмітки <strong>HTML</strong> та її <em>базові теги</em>.</p>
+                <p>Детальніше про мову можна дізнатися на <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides" 
+                    target="_blank">MDN Web Docs</a>.</p>
+            </article>
+        </section>
+
+        <!-- Секція 2: Списки та зображення -->
+        <section id="team">
+            <h2>Склад бригади</h2>
+            
+            <p>Напрямки:</p>
+            <ul>
+                <li>HTML</li>
+                <li>Дизайн</li>
+            </ul>
+
+            <p>Нумерований список з вкладеним списком:</p>
+            <ol>
+                <li>
+                    <strong>Олег Огородник</strong>
+                    <ul>
+                        <li>Розробка HTML-структури</li>
+                        <li>Підключення мультимедіа</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Литвин Владислав</strong> 
+                    <ul>
+                        <li>Створення таблиць та форм</li>
+                        <li>Підготовка графічних матеріалів</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <p>Фотографія одного з студентів нашого ліцею:</p>
+            <img src="photo.1.jpg" alt="Фотографія студента" width="200">
+        </section>
+
+        <!-- Секція 3: Таблиця -->
+        <section id="schedule">
+            <h2>Розклад занять</h2>
+            <table border="1">
+                <table border="1">
+    <caption>Розклад занять бригади</caption>
+    <tr>
+        <th>Пара</th>
+        <th>День</th>
+        <th>Дисципліна</th>
+        <th>Тип</th>
+        <th>Аудиторія</th>
+    </tr>
+    <!-- Понеділок -->
+    <tr>
+        <td>1</td>
+        <td>Понеділок</td>
+        <td>КТП</td>
+        <td>Лабораторна</td>
+        <td>ауд. 2204</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Понеділок</td>
+        <td>Вища математика</td>
+        <td>Лекція</td>
+        <td>ауд. 2208</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Понеділок</td>
+        <td>Вища математика</td>
+        <td>Практика</td>
+        <td>ауд. 1105</td>
+    </tr>
+    <!-- Вівторок -->
+    <tr>
+        <td>1</td>
+        <td>Вівторок</td>
+        <td>Комп'ютерна графіка</td>
+        <td>Лекція</td>
+        <td>ауд. 2201</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Вівторок</td>
+        <td>Основи автоматизації</td>
+        <td>Практика</td>
+        <td>ауд. 3302</td>
+    </tr>
+    <!-- Середа -->
+    <tr>
+        <td>1</td>
+        <td>Середа</td>
+        <td>Веб-Технології</td>
+        <td>Лабораторна</td>
+        <td>ауд. 7204</td>
+    </tr>
+</table>
+            </table>
+        </section>
+
+        <!-- Секція 4: Мультимедіа -->
+        <section id="media">
+            <h2>Мультимедіа</h2>
+            <audio controls src="audio.mp3"></audio>
+
+            <video controls src="video.mp4" width="300"></video>
+        </section>
+
+        <!-- Якір для повернення вгору -->
+        <p><a href="#top">Нагору ↑</a></p>
+    </main>
+
+    <!-- Підвал -->
+    <footer>
+        <p>Контакти: student@example.com</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма реєстрації</title>
+</head>
+<body>
+
+    <header>
+        <h1>Форма зворотного зв'язку</h1>
+        <p><a href="index.html">← На головну</a></p>
+    </header>
+
+    <main>
+        <form action="success.html" method="get">
+    <p>Ваше ім'я: <input type="text" name="username" required></p>
+    <p>Електронна пошта: <input type="email" name="email" required></p>
+    <p>Пароль для підтвердження: <input type="password" name="password" required></p>
+    <p>Дата звернення: <input type="date" name="feedback_date"></p>
+    <p>Оцініть сайт від 1 до 10: <input type="number" name="rating" min="1" max="10" value="10"></p>
+
+    <p>Що вам найбільше сподобалося на сайті?:<br>
+        <input type="checkbox" name="like1"> Зручний дизайн<br>
+        <input type="checkbox" name="like2"> Зрозуміла навігація
+    </p>
+
+    <p>Як часто ви відвідуєте наш сайт?:<br>
+        <input type="radio" name="visit_freq" value="first" checked> Вперше<br>
+        <input type="radio" name="visit_freq" value="daily"> Щодня
+    </p>
+
+    <p>Які розділи сайту вас цікавлять?:<br>
+        <select name="topics" multiple size="3">
+            <option value="news">Новини та оголошення</option>
+            <option value="materials">Навчальні матеріали</option>
+            <option value="support">Технічна підтримка</option>
+        </select>
+    </p>
+
+    <p>Текст вашого повідомлення:<br>
+        <textarea name="comment" rows="4" cols="40" placeholder="Напишіть ваш відгук або запитання..."></textarea>
+    </p>
+
+    <button type="submit">Надіслати відгук</button>
+</form>
+    </main>
+
+</body>
+</html>
